@@ -5,6 +5,7 @@ mod leetcode_53;
 mod leetcode_84;
 mod leetcode_128;
 mod leetcode_167;
+mod leetcode_445;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right

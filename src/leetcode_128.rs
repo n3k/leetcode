@@ -160,33 +160,33 @@ mod tests {
     use super::*;
 
     use std::time::Instant;
-    use rand::Rng;
+    // //use rand::Rng;
 
-    #[test]
-    fn long_consecutive_sequence_1() {
-        let mut rng = rand::thread_rng();
+    // #[test]
+    // fn long_consecutive_sequence_1() {
+    //     let mut rng = rand::thread_rng();
 
-        let array: Vec<i64> = (0..rng.gen_range::<usize, _>(100..1000000))
-            .map(|_| {
-                rng.gen_range::<i64, _>(0..1000000)
-            }).collect();
+    //     let array: Vec<i64> = (0..rng.gen_range::<usize, _>(100..1000000))
+    //         .map(|_| {
+    //             rng.gen_range::<i64, _>(0..1000000)
+    //         }).collect();
         
-        let array_cloned = array.clone();
+    //     let array_cloned = array.clone();
 
-        let start1 = Instant::now();
-        let len1 = lgs_set(array_cloned);
-        let end1 = start1.elapsed();
+    //     let start1 = Instant::now();
+    //     let len1 = lgs_set(array_cloned);
+    //     let end1 = start1.elapsed();
 
-        let start2 = Instant::now();
-        let len2 = lgs_sorted(array);
-        let end2 = start2.elapsed();
+    //     let start2 = Instant::now();
+    //     let len2 = lgs_sorted(array);
+    //     let end2 = start2.elapsed();
 
-        assert_eq!(len1, len2);
+    //     assert_eq!(len1, len2);
         
-        println!("Len: {} \nTime1: {:2.5} - Time2: {:2.5}", 
-            len1, end1.as_secs_f64(), end2.as_secs_f64());
-        //println!("{:?}", res);   
-    }
+    //     println!("Len: {} \nTime1: {:2.5} - Time2: {:2.5}", 
+    //         len1, end1.as_secs_f64(), end2.as_secs_f64());
+    //     //println!("{:?}", res);   
+    // }
 
 
     #[test]

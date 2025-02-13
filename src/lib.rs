@@ -5,10 +5,15 @@ mod leetcode_5;
 mod leetcode_12;
 mod leetcode_53;
 mod leetcode_84;
+mod leetcode_111;
 mod leetcode_128;
 mod leetcode_167;
 mod leetcode_209;
 mod leetcode_445;
+mod leetcode_523;
+mod leetcode_766;
+mod leetcode_987;
+
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right

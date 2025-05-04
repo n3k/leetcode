@@ -10,6 +10,7 @@ mod leetcode_84;
 mod leetcode_111;
 mod leetcode_128;
 mod leetcode_167;
+mod leetcode_200;
 mod leetcode_209;
 mod leetcode_217;
 mod leetcode_238;
@@ -21,6 +22,7 @@ mod leetcode_523;
 mod leetcode_766;
 mod leetcode_836;
 mod leetcode_987;
+mod leetcode_1610;
 
 
 pub fn add(left: usize, right: usize) -> usize {

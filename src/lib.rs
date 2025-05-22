@@ -13,6 +13,7 @@ mod leetcode_167;
 mod leetcode_200;
 mod leetcode_209;
 mod leetcode_217;
+mod leetcode_226;
 mod leetcode_238;
 mod leetcode_242;
 mod leetcode_271;
